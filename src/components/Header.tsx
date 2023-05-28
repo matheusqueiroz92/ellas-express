@@ -26,7 +26,6 @@ const TagHeader = styled.header`
     align-items: center;
     justify-content: center;
     gap: 24px;
-    border-radius: 5px;
   }
 `
 const Logo = styled.a`

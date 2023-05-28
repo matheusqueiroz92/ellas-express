@@ -783,15 +783,153 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/contexts/FilterContext.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "FilterContext": {
+        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
+        "name": "FilterContext",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "FilterContextProvider": {
+        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
+        "name": "FilterContextProvider",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/FilterBar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/FilterBar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/FilterBar.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "FilterBar": {
+        "id": "(sc_client)/./src/components/FilterBar.tsx",
+        "name": "FilterBar",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/FilterByType.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/FilterByType.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/FilterByType.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "FilterByType": {
+        "id": "(sc_client)/./src/components/FilterByType.tsx",
+        "name": "FilterByType",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/ProductsList.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/ProductsList.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/ProductsList.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "ProductList": {
+        "id": "(sc_client)/./src/components/ProductsList.tsx",
+        "name": "ProductList",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/home/matheus/Projetos/ellas-express/src/app/page": [
-      "static/css/app/page.css"
-    ],
     "/home/matheus/Projetos/ellas-express/src/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/home/matheus/Projetos/ellas-express/src/app/page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -2523,13 +2661,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/matheus/Projetos/ellas-express/src/app/page.module.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/page.css"
-      ]
-    },
     "/home/matheus/Projetos/ellas-express/src/app/globals.css#": {
       "id": "null",
       "name": "default",
@@ -2572,6 +2703,141 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/contexts/FilterContext.tsx": {
+      "id": "(app-client)/./src/contexts/FilterContext.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/contexts/FilterContext.tsx#": {
+      "id": "(app-client)/./src/contexts/FilterContext.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/contexts/FilterContext.tsx#FilterContext": {
+      "id": "(app-client)/./src/contexts/FilterContext.tsx",
+      "name": "FilterContext",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/contexts/FilterContext.tsx#FilterContextProvider": {
+      "id": "(app-client)/./src/contexts/FilterContext.tsx",
+      "name": "FilterContextProvider",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/app/page.module.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/page.css"
+      ]
+    },
+    "/home/matheus/Projetos/ellas-express/src/app/page.tsx": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/app/page.tsx#": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/app/page.tsx#default": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/components/FilterBar.tsx": {
+      "id": "(app-client)/./src/components/FilterBar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/components/FilterBar.tsx#": {
+      "id": "(app-client)/./src/components/FilterBar.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/components/FilterBar.tsx#FilterBar": {
+      "id": "(app-client)/./src/components/FilterBar.tsx",
+      "name": "FilterBar",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/components/FilterByType.tsx": {
+      "id": "(app-client)/./src/components/FilterByType.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/components/FilterByType.tsx#": {
+      "id": "(app-client)/./src/components/FilterByType.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/components/FilterByType.tsx#FilterByType": {
+      "id": "(app-client)/./src/components/FilterByType.tsx",
+      "name": "FilterByType",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/components/ProductsList.tsx": {
+      "id": "(app-client)/./src/components/ProductsList.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/components/ProductsList.tsx#": {
+      "id": "(app-client)/./src/components/ProductsList.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/ellas-express/src/components/ProductsList.tsx#ProductList": {
+      "id": "(app-client)/./src/components/ProductsList.tsx",
+      "name": "ProductList",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }

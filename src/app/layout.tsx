@@ -1,3 +1,4 @@
+import { FilterContextProvider } from '@/contexts/FilterContext'
 import Header from '../components/Header'
 import './globals.css'
 import { Saira } from 'next/font/google'
@@ -20,8 +21,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={saira.className}>
-        <Header />
-        {children}</body>
+        <FilterContextProvider>
+          <Header />
+          {children}
+        </FilterContextProvider>
+      </body>
     </html>
   )
 }
