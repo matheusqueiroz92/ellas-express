@@ -43,3 +43,18 @@ export function filterQuery(type: FilterType, priority: PriorityType) {
   `
 }
 
+export function getProductById(id: string) {
+  return `
+    query {
+      allProducts(filter: {id: "${id}"}) {
+        id
+        image_url
+        name
+        price_in_cents
+        category
+        description
+      }
+    }
+  `
+}
+

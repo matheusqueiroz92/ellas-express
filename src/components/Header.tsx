@@ -6,6 +6,7 @@ import { Saira_Stencil_One } from 'next/font/google'
 import { PrimaryInputWithSearchIcon } from "./PrimaryInput";
 import { CartControl } from "./CartControl";
 import { useFilter } from "@/hooks/useFilter";
+import Link from "next/link";
 
 const sairaStencil = Saira_Stencil_One({
   weight: ['400'],
@@ -28,6 +29,10 @@ const TagHeader = styled.header`
     justify-content: center;
     gap: 24px;
   }
+
+  a {
+    text-decoration: none;
+  }
 `
 const Logo = styled.a`
   color: var(--logo-color);
@@ -42,9 +47,11 @@ export default function Header(props: HeaderProps) {
 
   return (
     <TagHeader>
-      <Logo className={sairaStencil.className}>
-        Ellas Express
-      </Logo>
+      <Link href="/">
+        <Logo className={sairaStencil.className}>
+          MeSalve Express
+        </Logo>
+      </Link>
       <div>
         <PrimaryInputWithSearchIcon
           value={search}
