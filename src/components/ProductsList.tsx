@@ -8,7 +8,7 @@ import Link from "next/link";
 const ListContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, 256px);
-  gap: 32px;
+  gap: 50px;
   max-width: 100%;
   margin-top: 32px;
 
@@ -23,8 +23,6 @@ const ListContainer = styled.div`
 
 export function ProductList() {
   const { data } = useProducts();
-
-  console.log(data);
   
   return (
     <ListContainer>

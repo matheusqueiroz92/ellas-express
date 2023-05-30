@@ -133,7 +133,7 @@ export default function SingleProduct(props: SingleProductProps) {
             </div>
           </div>
           <div className="container-button">
-            <ButtonAddToCart />
+            <ButtonAddToCart/>
           </div>
         </div>
       </ProductContainer>

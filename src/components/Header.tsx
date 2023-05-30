@@ -21,7 +21,7 @@ const TagHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 160px;
+  padding: 12px 24px;
 
   > div {
     display: flex;
@@ -33,13 +33,25 @@ const TagHeader = styled.header`
   a {
     text-decoration: none;
   }
+
+  @media (min-width: ${props => props.theme.desktopBreakPoint}) {
+    padding: 20px 160px;
+  }
 `
 const Logo = styled.a`
   color: var(--logo-color);
   font-weight: 400;
-  font-size: 40px;
+  font-size: 20px;
   line-height: 150%;
   cursor: pointer;
+
+  @media (min-width: ${props => props.theme.tabletBreakPoint}) {
+    font-size: 24px;
+  }
+
+  @media (min-width: ${props => props.theme.desktopBreakPoint}) {
+    font-size: 40px;
+  }
 `
 
 export default function Header(props: HeaderProps) {
@@ -49,7 +61,7 @@ export default function Header(props: HeaderProps) {
     <TagHeader>
       <Link href="/">
         <Logo className={sairaStencil.className}>
-          MeSalve Express
+          Fashion Express
         </Logo>
       </Link>
       <div>

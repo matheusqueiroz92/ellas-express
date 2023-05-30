@@ -763,7 +763,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/product/[id]/page:static/chunks/app/product/[id]/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -771,7 +771,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/product/[id]/page:static/chunks/app/product/[id]/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
@@ -779,7 +779,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/product/[id]/page:static/chunks/app/product/[id]/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -922,32 +922,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/components/Header.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Header.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Header.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Header.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/product/[id]/page.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/product/[id]/page.tsx",
@@ -999,22 +973,97 @@
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/components/DefaultProviders.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/DefaultProviders.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/DefaultProviders.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/DefaultProviders.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Footer.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/Footer.jsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/Footer.jsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Footer.jsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Header.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/Header.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/Header.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Header.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/home/matheus/Projetos/mesalve-express/src/app/page": [
-      "static/css/app/page.css"
-    ],
-    "/home/matheus/Projetos/mesalve-express/src/app/layout": [
-      "static/css/app/layout.css"
-    ],
-    "/home/matheus/Projetos/mesalve-express/src/app/product/[id]/page": [
+    "/home/matheus/Projetos/fashion-express/src/app/product/[id]/page": [
       "static/css/app/product/[id]/page.css"
+    ],
+    "/home/matheus/Projetos/fashion-express/src/app/layout": [
+      "static/css/app/layout.css"
     ]
   },
   "clientModules": {
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -1022,7 +1071,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -1030,7 +1079,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1038,7 +1087,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -1046,7 +1095,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1054,7 +1103,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -1062,7 +1111,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#getServerActionDispatcher": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1070,7 +1119,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#getServerActionDispatcher": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -1078,7 +1127,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1086,7 +1135,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -1094,7 +1143,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#TODO-APP": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#TODO-APP": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "TODO-APP",
       "chunks": [
@@ -1102,7 +1151,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#TODO-APP": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#TODO-APP": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "TODO-APP",
       "chunks": [
@@ -1110,7 +1159,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#__NA": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#__NA": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "__NA",
       "chunks": [
@@ -1118,7 +1167,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#__NA": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#__NA": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "__NA",
       "chunks": [
@@ -1126,7 +1175,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#location": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#location": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "location",
       "chunks": [
@@ -1134,7 +1183,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#location": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#location": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "location",
       "chunks": [
@@ -1142,7 +1191,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#\"http": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#\"http": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "\"http",
       "chunks": [
@@ -1150,7 +1199,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#\"http": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#\"http": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "\"http",
       "chunks": [
@@ -1158,7 +1207,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#searchParams": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#searchParams": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "searchParams",
       "chunks": [
@@ -1166,7 +1215,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#searchParams": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#searchParams": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "searchParams",
       "chunks": [
@@ -1174,7 +1223,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#pathname": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pathname",
       "chunks": [
@@ -1182,7 +1231,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#pathname": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pathname",
       "chunks": [
@@ -1190,7 +1239,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#type": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#type": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "type",
       "chunks": [
@@ -1198,7 +1247,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#type": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#type": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "type",
       "chunks": [
@@ -1206,7 +1255,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#cache": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#cache": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "cache",
       "chunks": [
@@ -1214,7 +1263,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#cache": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#cache": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "cache",
       "chunks": [
@@ -1222,7 +1271,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#status": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#status": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "status",
       "chunks": [
@@ -1230,7 +1279,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#status": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#status": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "status",
       "chunks": [
@@ -1238,7 +1287,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#data": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#data": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "data",
       "chunks": [
@@ -1246,7 +1295,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#data": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#data": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "data",
       "chunks": [
@@ -1254,7 +1303,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#subTreeData": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#subTreeData": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "subTreeData",
       "chunks": [
@@ -1262,7 +1311,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#subTreeData": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#subTreeData": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "subTreeData",
       "chunks": [
@@ -1270,7 +1319,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#parallelRoutes": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#parallelRoutes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "parallelRoutes",
       "chunks": [
@@ -1278,7 +1327,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#parallelRoutes": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#parallelRoutes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "parallelRoutes",
       "chunks": [
@@ -1286,7 +1335,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#mutable": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#mutable": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "mutable",
       "chunks": [
@@ -1294,7 +1343,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#mutable": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#mutable": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "mutable",
       "chunks": [
@@ -1302,7 +1351,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#isExternalUrl": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#isExternalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "isExternalUrl",
       "chunks": [
@@ -1310,7 +1359,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#isExternalUrl": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#isExternalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "isExternalUrl",
       "chunks": [
@@ -1318,7 +1367,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#locationSearch": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#locationSearch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "locationSearch",
       "chunks": [
@@ -1326,7 +1375,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#locationSearch": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#locationSearch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "locationSearch",
       "chunks": [
@@ -1334,7 +1383,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#back": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#back": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "back",
       "chunks": [
@@ -1342,7 +1391,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#back": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#back": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "back",
       "chunks": [
@@ -1350,7 +1399,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#forward": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#forward": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "forward",
       "chunks": [
@@ -1358,7 +1407,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#forward": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#forward": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "forward",
       "chunks": [
@@ -1366,7 +1415,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#prefetch": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#prefetch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "prefetch",
       "chunks": [
@@ -1374,7 +1423,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#prefetch": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#prefetch": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "prefetch",
       "chunks": [
@@ -1382,7 +1431,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#kind": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#kind": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "kind",
       "chunks": [
@@ -1390,7 +1439,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#kind": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#kind": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "kind",
       "chunks": [
@@ -1398,7 +1447,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#replace": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#replace": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "replace",
       "chunks": [
@@ -1406,7 +1455,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#replace": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#replace": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "replace",
       "chunks": [
@@ -1414,7 +1463,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#push": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#push": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "push",
       "chunks": [
@@ -1422,7 +1471,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#push": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#push": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "push",
       "chunks": [
@@ -1430,7 +1479,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#refresh": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#refresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "refresh",
       "chunks": [
@@ -1438,7 +1487,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#refresh": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#refresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "refresh",
       "chunks": [
@@ -1446,7 +1495,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#origin": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#origin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "origin",
       "chunks": [
@@ -1454,7 +1503,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#origin": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#origin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "origin",
       "chunks": [
@@ -1462,7 +1511,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#fastRefresh": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#fastRefresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "fastRefresh",
       "chunks": [
@@ -1470,7 +1519,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#fastRefresh": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#fastRefresh": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "fastRefresh",
       "chunks": [
@@ -1478,7 +1527,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#router": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "router",
       "chunks": [
@@ -1486,7 +1535,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#router": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "router",
       "chunks": [
@@ -1494,7 +1543,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#(eg": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#(eg": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "(eg",
       "chunks": [
@@ -1502,7 +1551,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#(eg": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#(eg": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "(eg",
       "chunks": [
@@ -1510,7 +1559,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#url": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#url": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "url",
       "chunks": [
@@ -1518,7 +1567,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#url": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#url": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "url",
       "chunks": [
@@ -1526,7 +1575,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#tree": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#tree": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "tree",
       "chunks": [
@@ -1534,7 +1583,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#tree": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#tree": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "tree",
       "chunks": [
@@ -1542,7 +1591,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#notFound": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#notFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFound",
       "chunks": [
@@ -1550,7 +1599,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#notFound": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#notFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFound",
       "chunks": [
@@ -1558,7 +1607,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#notFoundStyles": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#notFoundStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFoundStyles",
       "chunks": [
@@ -1566,7 +1615,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#notFoundStyles": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#notFoundStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "notFoundStyles",
       "chunks": [
@@ -1574,7 +1623,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#asNotFound": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#asNotFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "asNotFound",
       "chunks": [
@@ -1582,7 +1631,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#asNotFound": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#asNotFound": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "asNotFound",
       "chunks": [
@@ -1590,7 +1639,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#pushRef": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#pushRef": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pushRef",
       "chunks": [
@@ -1598,7 +1647,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#pushRef": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#pushRef": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "pushRef",
       "chunks": [
@@ -1606,7 +1655,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#canonicalUrl": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#canonicalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "canonicalUrl",
       "chunks": [
@@ -1614,7 +1663,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#canonicalUrl": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#canonicalUrl": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "canonicalUrl",
       "chunks": [
@@ -1622,7 +1671,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#sync": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#sync": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "sync",
       "chunks": [
@@ -1630,7 +1679,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#sync": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#sync": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "sync",
       "chunks": [
@@ -1638,7 +1687,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#value": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "value",
       "chunks": [
@@ -1646,7 +1695,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#value": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "value",
       "chunks": [
@@ -1654,7 +1703,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#childNodes": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#childNodes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "childNodes",
       "chunks": [
@@ -1662,7 +1711,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#childNodes": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#childNodes": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "childNodes",
       "chunks": [
@@ -1670,7 +1719,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#assetPrefix": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#assetPrefix": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "assetPrefix",
       "chunks": [
@@ -1678,7 +1727,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#assetPrefix": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#assetPrefix": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "assetPrefix",
       "chunks": [
@@ -1686,7 +1735,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/app-router.js#errorComponent": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/app-router.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "errorComponent",
       "chunks": [
@@ -1694,7 +1743,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/app-router.js#errorComponent": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/app-router.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "errorComponent",
       "chunks": [
@@ -1702,7 +1751,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -1710,7 +1759,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -1718,7 +1767,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -1726,7 +1775,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -1734,7 +1783,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -1742,7 +1791,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -1750,7 +1799,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundaryHandler": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -1758,7 +1807,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundaryHandler": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -1766,7 +1815,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundary": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -1774,7 +1823,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundary": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -1782,7 +1831,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#error": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#error": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "error",
       "chunks": [
@@ -1790,7 +1839,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#error": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#error": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "error",
       "chunks": [
@@ -1798,7 +1847,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#https": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#https": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "https",
       "chunks": [
@@ -1806,7 +1855,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#https": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#https": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "https",
       "chunks": [
@@ -1814,7 +1863,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#fontFamily": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#fontFamily": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontFamily",
       "chunks": [
@@ -1822,7 +1871,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#fontFamily": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#fontFamily": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontFamily",
       "chunks": [
@@ -1830,7 +1879,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#height": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#height": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "height",
       "chunks": [
@@ -1838,7 +1887,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#height": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#height": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "height",
       "chunks": [
@@ -1846,7 +1895,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#textAlign": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#textAlign": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "textAlign",
       "chunks": [
@@ -1854,7 +1903,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#textAlign": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#textAlign": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "textAlign",
       "chunks": [
@@ -1862,7 +1911,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#display": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#display": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "display",
       "chunks": [
@@ -1870,7 +1919,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#display": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#display": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "display",
       "chunks": [
@@ -1878,7 +1927,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#flexDirection": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#flexDirection": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "flexDirection",
       "chunks": [
@@ -1886,7 +1935,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#flexDirection": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#flexDirection": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "flexDirection",
       "chunks": [
@@ -1894,7 +1943,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#alignItems": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#alignItems": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "alignItems",
       "chunks": [
@@ -1902,7 +1951,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#alignItems": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#alignItems": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "alignItems",
       "chunks": [
@@ -1910,7 +1959,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#justifyContent": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#justifyContent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "justifyContent",
       "chunks": [
@@ -1918,7 +1967,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#justifyContent": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#justifyContent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "justifyContent",
       "chunks": [
@@ -1926,7 +1975,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#desc": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#desc": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "desc",
       "chunks": [
@@ -1934,7 +1983,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#desc": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#desc": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "desc",
       "chunks": [
@@ -1942,7 +1991,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#text": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#text": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "text",
       "chunks": [
@@ -1950,7 +1999,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#text": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#text": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "text",
       "chunks": [
@@ -1958,7 +2007,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#fontSize": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#fontSize": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontSize",
       "chunks": [
@@ -1966,7 +2015,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#fontSize": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#fontSize": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontSize",
       "chunks": [
@@ -1974,7 +2023,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#fontWeight": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#fontWeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontWeight",
       "chunks": [
@@ -1982,7 +2031,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#fontWeight": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#fontWeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "fontWeight",
       "chunks": [
@@ -1990,7 +2039,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#lineHeight": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#lineHeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "lineHeight",
       "chunks": [
@@ -1998,7 +2047,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#lineHeight": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#lineHeight": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "lineHeight",
       "chunks": [
@@ -2006,7 +2055,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#margin": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#margin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "margin",
       "chunks": [
@@ -2014,7 +2063,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#margin": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#margin": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "margin",
       "chunks": [
@@ -2022,7 +2071,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#previousPathname": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#previousPathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "previousPathname",
       "chunks": [
@@ -2030,7 +2079,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#previousPathname": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#previousPathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "previousPathname",
       "chunks": [
@@ -2038,7 +2087,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#reset": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2046,7 +2095,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#reset": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2054,7 +2103,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#style": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#style": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "style",
       "chunks": [
@@ -2062,7 +2111,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#style": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#style": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "style",
       "chunks": [
@@ -2070,7 +2119,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#\"Digest": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#\"Digest": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "\"Digest",
       "chunks": [
@@ -2078,7 +2127,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#\"Digest": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#\"Digest": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "\"Digest",
       "chunks": [
@@ -2086,7 +2135,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#pathname": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "pathname",
       "chunks": [
@@ -2094,7 +2143,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#pathname": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#pathname": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "pathname",
       "chunks": [
@@ -2102,7 +2151,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#errorComponent": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorComponent",
       "chunks": [
@@ -2110,7 +2159,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#errorComponent": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#errorComponent": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorComponent",
       "chunks": [
@@ -2118,7 +2167,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#errorStyles": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#errorStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorStyles",
       "chunks": [
@@ -2126,7 +2175,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#errorStyles": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#errorStyles": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "errorStyles",
       "chunks": [
@@ -2134,7 +2183,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/error-boundary.js#value": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/error-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "value",
       "chunks": [
@@ -2142,7 +2191,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/error-boundary.js#value": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/error-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "value",
       "chunks": [
@@ -2150,7 +2199,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/redirect-boundary.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -2158,7 +2207,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -2166,7 +2215,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/redirect-boundary.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -2174,7 +2223,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -2182,7 +2231,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/redirect-boundary.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -2190,7 +2239,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -2198,7 +2247,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/redirect-boundary.js#RedirectErrorBoundary": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -2206,7 +2255,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectErrorBoundary": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -2214,7 +2263,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/redirect-boundary.js#RedirectBoundary": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -2222,7 +2271,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectBoundary": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -2230,7 +2279,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/redirect-boundary.js#redirect": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/redirect-boundary.js#redirect": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirect",
       "chunks": [
@@ -2238,7 +2287,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#redirect": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#redirect": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirect",
       "chunks": [
@@ -2246,7 +2295,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/redirect-boundary.js#redirectType": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/redirect-boundary.js#redirectType": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirectType",
       "chunks": [
@@ -2254,7 +2303,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#redirectType": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#redirectType": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "redirectType",
       "chunks": [
@@ -2262,7 +2311,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/redirect-boundary.js#reset": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/redirect-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2270,7 +2319,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#reset": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#reset": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "reset",
       "chunks": [
@@ -2278,7 +2327,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/redirect-boundary.js#router": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/redirect-boundary.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "router",
       "chunks": [
@@ -2286,7 +2335,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#router": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#router": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "router",
       "chunks": [
@@ -2294,7 +2343,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/redirect-boundary.js#value": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/redirect-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "value",
       "chunks": [
@@ -2302,7 +2351,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#value": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/redirect-boundary.js#value": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "value",
       "chunks": [
@@ -2310,7 +2359,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -2318,7 +2367,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -2326,7 +2375,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -2334,7 +2383,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -2342,7 +2391,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -2350,7 +2399,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -2358,7 +2407,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/app-router-context.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -2366,7 +2415,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -2374,7 +2423,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/app-router-context.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -2382,7 +2431,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -2390,7 +2439,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -2398,7 +2447,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -2406,7 +2455,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -2414,7 +2463,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -2422,7 +2471,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -2430,7 +2479,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -2438,7 +2487,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -2446,7 +2495,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -2454,7 +2503,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -2462,7 +2511,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -2470,7 +2519,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -2478,7 +2527,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -2486,7 +2535,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -2494,7 +2543,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -2502,15 +2551,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -2518,7 +2559,15 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -2526,7 +2575,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -2534,7 +2583,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -2542,7 +2591,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -2550,7 +2599,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -2558,7 +2607,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -2566,15 +2615,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -2582,7 +2623,15 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -2590,7 +2639,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -2598,7 +2647,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/layout-router.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -2606,7 +2655,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -2614,7 +2663,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/layout-router.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -2622,7 +2671,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/layout-router.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -2630,7 +2679,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/layout-router.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -2638,7 +2687,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/layout-router.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -2646,7 +2695,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -2654,7 +2703,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -2662,7 +2711,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/render-from-template-context.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -2670,7 +2719,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -2678,7 +2727,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/render-from-template-context.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -2686,7 +2735,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -2694,7 +2743,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -2702,7 +2751,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -2710,7 +2759,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -2718,7 +2767,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -2726,7 +2775,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -2734,7 +2783,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -2742,62 +2791,55 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/app/page.module.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/page.css"
-      ]
-    },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/link.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/product/[id]/page:static/chunks/app/product/[id]/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/link.js": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/product/[id]/page:static/chunks/app/product/[id]/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/link.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/product/[id]/page:static/chunks/app/product/[id]/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/link.js#": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/product/[id]/page:static/chunks/app/product/[id]/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/client/link.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/product/[id]/page:static/chunks/app/product/[id]/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/dist/esm/client/link.js#default": {
+    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/product/[id]/page:static/chunks/app/product/[id]/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/app/page.tsx": {
+    "/home/matheus/Projetos/fashion-express/src/app/page.tsx": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "*",
       "chunks": [
@@ -2805,7 +2847,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/app/page.tsx#": {
+    "/home/matheus/Projetos/fashion-express/src/app/page.tsx#": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "",
       "chunks": [
@@ -2813,7 +2855,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/app/page.tsx#default": {
+    "/home/matheus/Projetos/fashion-express/src/app/page.tsx#default": {
       "id": "(app-client)/./src/app/page.tsx",
       "name": "default",
       "chunks": [
@@ -2821,7 +2863,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/FilterBar.tsx": {
+    "/home/matheus/Projetos/fashion-express/src/components/FilterBar.tsx": {
       "id": "(app-client)/./src/components/FilterBar.tsx",
       "name": "*",
       "chunks": [
@@ -2829,7 +2871,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/FilterBar.tsx#": {
+    "/home/matheus/Projetos/fashion-express/src/components/FilterBar.tsx#": {
       "id": "(app-client)/./src/components/FilterBar.tsx",
       "name": "",
       "chunks": [
@@ -2837,7 +2879,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/FilterBar.tsx#FilterBar": {
+    "/home/matheus/Projetos/fashion-express/src/components/FilterBar.tsx#FilterBar": {
       "id": "(app-client)/./src/components/FilterBar.tsx",
       "name": "FilterBar",
       "chunks": [
@@ -2845,7 +2887,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/FilterByType.tsx": {
+    "/home/matheus/Projetos/fashion-express/src/components/FilterByType.tsx": {
       "id": "(app-client)/./src/components/FilterByType.tsx",
       "name": "*",
       "chunks": [
@@ -2853,7 +2895,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/FilterByType.tsx#": {
+    "/home/matheus/Projetos/fashion-express/src/components/FilterByType.tsx#": {
       "id": "(app-client)/./src/components/FilterByType.tsx",
       "name": "",
       "chunks": [
@@ -2861,7 +2903,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/FilterByType.tsx#FilterByType": {
+    "/home/matheus/Projetos/fashion-express/src/components/FilterByType.tsx#FilterByType": {
       "id": "(app-client)/./src/components/FilterByType.tsx",
       "name": "FilterByType",
       "chunks": [
@@ -2869,7 +2911,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/ProductsList.tsx": {
+    "/home/matheus/Projetos/fashion-express/src/components/ProductsList.tsx": {
       "id": "(app-client)/./src/components/ProductsList.tsx",
       "name": "*",
       "chunks": [
@@ -2877,7 +2919,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/ProductsList.tsx#": {
+    "/home/matheus/Projetos/fashion-express/src/components/ProductsList.tsx#": {
       "id": "(app-client)/./src/components/ProductsList.tsx",
       "name": "",
       "chunks": [
@@ -2885,7 +2927,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/ProductsList.tsx#ProductList": {
+    "/home/matheus/Projetos/fashion-express/src/components/ProductsList.tsx#ProductList": {
       "id": "(app-client)/./src/components/ProductsList.tsx",
       "name": "ProductList",
       "chunks": [
@@ -2893,7 +2935,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/contexts/FilterContext.tsx": {
+    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx": {
       "id": "(app-client)/./src/contexts/FilterContext.tsx",
       "name": "*",
       "chunks": [
@@ -2901,7 +2943,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/contexts/FilterContext.tsx#": {
+    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx#": {
       "id": "(app-client)/./src/contexts/FilterContext.tsx",
       "name": "",
       "chunks": [
@@ -2909,7 +2951,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/contexts/FilterContext.tsx#FilterContext": {
+    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx#FilterContext": {
       "id": "(app-client)/./src/contexts/FilterContext.tsx",
       "name": "FilterContext",
       "chunks": [
@@ -2917,7 +2959,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/contexts/FilterContext.tsx#FilterContextProvider": {
+    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx#FilterContextProvider": {
       "id": "(app-client)/./src/contexts/FilterContext.tsx",
       "name": "FilterContextProvider",
       "chunks": [
@@ -2925,59 +2967,14 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Saira\",\"arguments\":[{\"weight\":[\"300\",\"400\",\"500\",\"600\"],\"subsets\":[\"latin\"]}],\"variableName\":\"saira\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/matheus/Projetos/mesalve-express/node_modules/next/font/google/target.css?{\"path\":\"src/components/Header.tsx\",\"import\":\"Saira_Stencil_One\",\"arguments\":[{\"weight\":[\"400\"],\"subsets\":[\"latin\"]}],\"variableName\":\"sairaStencil\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/matheus/Projetos/mesalve-express/src/components/Header.tsx": {
-      "id": "(app-client)/./src/components/Header.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/mesalve-express/src/components/Header.tsx#": {
-      "id": "(app-client)/./src/components/Header.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/mesalve-express/src/components/Header.tsx#default": {
-      "id": "(app-client)/./src/components/Header.tsx",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/mesalve-express/src/app/product/[id]/page.module.css#": {
+    "/home/matheus/Projetos/fashion-express/src/app/product/[id]/page.module.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/product/[id]/page.css"
       ]
     },
-    "/home/matheus/Projetos/mesalve-express/src/app/product/[id]/page.tsx": {
+    "/home/matheus/Projetos/fashion-express/src/app/product/[id]/page.tsx": {
       "id": "(app-client)/./src/app/product/[id]/page.tsx",
       "name": "*",
       "chunks": [
@@ -2985,7 +2982,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/app/product/[id]/page.tsx#": {
+    "/home/matheus/Projetos/fashion-express/src/app/product/[id]/page.tsx#": {
       "id": "(app-client)/./src/app/product/[id]/page.tsx",
       "name": "",
       "chunks": [
@@ -2993,7 +2990,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/app/product/[id]/page.tsx#default": {
+    "/home/matheus/Projetos/fashion-express/src/app/product/[id]/page.tsx#default": {
       "id": "(app-client)/./src/app/product/[id]/page.tsx",
       "name": "default",
       "chunks": [
@@ -3001,7 +2998,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/SingleProduct.tsx": {
+    "/home/matheus/Projetos/fashion-express/src/components/SingleProduct.tsx": {
       "id": "(app-client)/./src/components/SingleProduct.tsx",
       "name": "*",
       "chunks": [
@@ -3009,7 +3006,7 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/SingleProduct.tsx#": {
+    "/home/matheus/Projetos/fashion-express/src/components/SingleProduct.tsx#": {
       "id": "(app-client)/./src/components/SingleProduct.tsx",
       "name": "",
       "chunks": [
@@ -3017,11 +3014,104 @@
       ],
       "async": false
     },
-    "/home/matheus/Projetos/mesalve-express/src/components/SingleProduct.tsx#default": {
+    "/home/matheus/Projetos/fashion-express/src/components/SingleProduct.tsx#default": {
       "id": "(app-client)/./src/components/SingleProduct.tsx",
       "name": "default",
       "chunks": [
         "app/product/[id]/page:static/chunks/app/product/[id]/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/app/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/home/matheus/Projetos/fashion-express/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Saira\",\"arguments\":[{\"weight\":[\"300\",\"400\",\"500\",\"600\"],\"subsets\":[\"latin\"]}],\"variableName\":\"saira\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/home/matheus/Projetos/fashion-express/node_modules/next/font/google/target.css?{\"path\":\"src/components/Header.tsx\",\"import\":\"Saira_Stencil_One\",\"arguments\":[{\"weight\":[\"400\"],\"subsets\":[\"latin\"]}],\"variableName\":\"sairaStencil\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/DefaultProviders.tsx": {
+      "id": "(app-client)/./src/components/DefaultProviders.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/DefaultProviders.tsx#": {
+      "id": "(app-client)/./src/components/DefaultProviders.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/DefaultProviders.tsx#default": {
+      "id": "(app-client)/./src/components/DefaultProviders.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/Footer.jsx": {
+      "id": "(app-client)/./src/components/Footer.jsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/Footer.jsx#": {
+      "id": "(app-client)/./src/components/Footer.jsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/Footer.jsx#default": {
+      "id": "(app-client)/./src/components/Footer.jsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/Header.tsx": {
+      "id": "(app-client)/./src/components/Header.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/Header.tsx#": {
+      "id": "(app-client)/./src/components/Header.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/Header.tsx#default": {
+      "id": "(app-client)/./src/components/Header.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     }
