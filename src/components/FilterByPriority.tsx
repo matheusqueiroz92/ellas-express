@@ -36,7 +36,7 @@ const OptionsPriorityFilter = styled.ul`
   top: 100%;
   right: 8px;
   cursor: pointer;
-  z-index: 999;
+  z-index: 998;
   
   li {
     color: var(--text-dark);

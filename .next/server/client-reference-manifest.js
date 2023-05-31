@@ -1077,6 +1077,32 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/app/cart/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/cart/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/cart/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/cart/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -3152,6 +3178,30 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/product/page:static/chunks/app/product/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/app/cart/page.tsx": {
+      "id": "(app-client)/./src/app/cart/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/app/cart/page.tsx#": {
+      "id": "(app-client)/./src/app/cart/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/app/cart/page.tsx#default": {
+      "id": "(app-client)/./src/app/cart/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     }

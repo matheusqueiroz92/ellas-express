@@ -11,6 +11,11 @@ export default function Footer() {
     justify-content: center;
     min-height: 100px;
     font-size: 18px;
+    background-color: var(--logo-color);
+
+    p {
+      color: var(--bg-primary);
+    }
   `
   return (
     <TagFooter>

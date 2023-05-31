@@ -7,7 +7,7 @@ import { styled } from "styled-components";
 const ListContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, 256px);
-  gap: 50px;
+  gap: 75px;
   max-width: 100%;
   margin-top: 32px;
   cursor: pointer;
