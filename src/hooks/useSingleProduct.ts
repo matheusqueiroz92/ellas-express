@@ -26,6 +26,7 @@ export function useSingleProduct(id: string) {
     queryFn: () => fetcher(id),
     queryKey: ['product', id],
     enabled: !!id,
+    staleTime: 1000 * 60 * 5 // tempo de atualização da requisição à API
   });
 
   const singleProduct = data?.data?.data?.Product;

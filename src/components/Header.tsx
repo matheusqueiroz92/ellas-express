@@ -7,6 +7,7 @@ import { PrimaryInputWithSearchIcon } from "./PrimaryInput";
 import { CartControl } from "./CartControl";
 import { useFilter } from "@/hooks/useFilter";
 import Link from "next/link";
+import { useLocalStorage } from "@/hooks/useLocalStorage";
 
 const sairaStencil = Saira_Stencil_One({
   weight: ['400'],

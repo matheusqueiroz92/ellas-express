@@ -3,7 +3,6 @@
 import { useProducts } from "@/hooks/useProducts"
 import { ProductCard } from "./ProductCard";
 import { styled } from "styled-components";
-import Link from "next/link";
 
 const ListContainer = styled.div`
   display: grid;
@@ -11,12 +10,9 @@ const ListContainer = styled.div`
   gap: 50px;
   max-width: 100%;
   margin-top: 32px;
+  cursor: pointer;
 
-  a {
-    text-decoration: none;
-  }
-
-  a:hover {
+  > div:hover {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 `
@@ -27,14 +23,13 @@ export function ProductList() {
   return (
     <ListContainer>
       {data?.map((product) => (
-        <Link href={`/product/${product.id}`}>
-          <ProductCard
-            key={product.id}
-            image={product.image_url}
-            title={product.name}
-            price={product.price_in_cents}
-          />
-        </Link>
+        <ProductCard
+          key={product.id}
+          image={product.image_url}
+          title={product.name}
+          price={product.price_in_cents}
+          id={product.id}
+        />
       ))}
     </ListContainer>
   )

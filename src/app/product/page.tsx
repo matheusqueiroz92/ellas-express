@@ -5,7 +5,8 @@ import { ButtonBack } from "@/components/Buttons/ButtonBack";
 import { DefaultLayout } from "@/components/DafaultLayout";
 import { styled } from "styled-components";
 
-export default function ProdutoEspecifico({params} : {params: {id: string}}) {
+export default function Product({searchParams}: {searchParams: {id: string}}) {
+
   const ContainerProduct = styled.div`
     display: flex;
     align-items: flex-start;
@@ -18,7 +19,7 @@ export default function ProdutoEspecifico({params} : {params: {id: string}}) {
     <DefaultLayout>
       <ContainerProduct>
         <ButtonBack navigate="/" />
-        <SingleProduct id={params.id}/>
+        <SingleProduct id={searchParams.id}/>
       </ContainerProduct>
     </DefaultLayout>
   )

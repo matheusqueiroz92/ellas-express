@@ -5,4 +5,5 @@ export interface Product {
   price_in_cents: number,
   category: string,
   description?: string,
+  quantity?: number,
 }

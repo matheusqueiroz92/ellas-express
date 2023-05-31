@@ -3,7 +3,8 @@ import { CartIcon } from "./Icons/CartIcon";
 import { styled } from "styled-components";
 
 export function CartControl() {
-  const { value } = useLocalStorage('cart-items');
+  const { value } = useLocalStorage('cart-items', []);
+  const sumItems = value.reduce((acc: any, cur: { quantity: any; }) => acc + cur.quantity, 0);
 
   const CartCount = styled.span`
     width: 17px;
@@ -22,7 +23,7 @@ export function CartControl() {
   return (
     <ContainerCart>
       <CartIcon/>
-      {value.length && <CartCount>{value.length}</CartCount>}
+      {value.length > 0 && <CartCount>{sumItems}</CartCount>}
     </ContainerCart>
   )
 }

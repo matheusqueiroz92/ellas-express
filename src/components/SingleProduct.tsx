@@ -4,7 +4,6 @@ import { useSingleProduct } from "@/hooks/useSingleProduct";
 import { styled } from "styled-components";
 import { ButtonAddToCart } from "./Buttons/ButtonAddToCart";
 import { formatPrice } from "@/utils/FormatPrice";
-import { execFile } from "child_process";
 
 interface SingleProductProps {
   id: string,
@@ -110,7 +109,7 @@ export default function SingleProduct({id}: SingleProductProps) {
               <p>{singleProduct?.description}</p>
             </div>
           </ProductInfo>
-          <ButtonAddToCart/>
+          <ButtonAddToCart productId={id}/>
         </div>
       </ProductContainer>
   )

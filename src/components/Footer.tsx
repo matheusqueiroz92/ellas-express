@@ -14,8 +14,8 @@ export default function Footer() {
   `
   return (
     <TagFooter>
-      <p>MeSalve Express. Te salvando com o que você mais precisa!</p>
-      <p>© Todos os direitos reservados.</p>
+      <p>E-commerce. Site de vendas de roupas e acessórios</p>
+      <p>Desenvolvido por Matheus Queiroz © Todos os direitos reservados.</p>
     </TagFooter>
   )
 }
