@@ -1,5 +1,5 @@
 import { styled } from "styled-components"
-import { ArrowIcon } from "./ArrowIcon"
+import { ArrowIcon } from "./Icons/ArrowIcon"
 import { useState } from "react"
 import { useFilter } from "@/hooks/useFilter"
 import { PriorityType } from "@/types/PriorityType"
@@ -34,6 +34,7 @@ const OptionsPriorityFilter = styled.ul`
   padding: 12px 16px;
   list-style: none;
   top: 100%;
+  right: 8px;
   cursor: pointer;
   z-index: 999;
   

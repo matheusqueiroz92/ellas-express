@@ -1,5 +1,5 @@
 import { useLocalStorage } from "@/hooks/useLocalStorage";
-import { CartIcon } from "./CartIcon";
+import { CartIcon } from "./Icons/CartIcon";
 import { styled } from "styled-components";
 
 export function CartControl() {

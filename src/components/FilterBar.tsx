@@ -9,7 +9,6 @@ const ContainerFilterBar = styled.div`
   width: 100%;
   align-items: start;
   justify-content: space-between;
-  /* padding: 20px 160px; */
 `
 
 export function FilterBar() {

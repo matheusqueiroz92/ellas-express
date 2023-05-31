@@ -1,26 +1,30 @@
 "use client"
 
-import Link from "next/link";
-import BackIcon from "./BackIcon";
 import { useSingleProduct } from "@/hooks/useSingleProduct";
 import { styled } from "styled-components";
+import { ButtonAddToCart } from "./Buttons/ButtonAddToCart";
 import { formatPrice } from "@/utils/FormatPrice";
-import { ButtonAddToCart } from "./ButtonAddToCart";
+import { execFile } from "child_process";
 
 interface SingleProductProps {
-  id: string
+  id: string,
 }
 
-const ProductContainer = styled.div`
+const ProductContainer = styled.section`
   display: flex;
-  padding: 80px 160px;
   justify-content: center;
   width: 100%;
   gap: 32px;
 
   img {
-    width: 640px;
-    height: 580px;
+    max-width: 640px;
+    width: 50%;
+  }
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 
   button {
@@ -35,110 +39,79 @@ const ProductContainer = styled.div`
   button:hover {
     background: #428ebd;
   }
-
-  .container-left {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .container-right {
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-    width: 30%;
-  }
-
-  .container-mid {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-  }
-
-  .container-mid > div {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-
-  .container-button {
-    width: 100%;
-  }
-
-  #category {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-  }
-
-  #title {
-    font-size: 32px;
-    font-weight: 300;
-    line-height: 48px;
-  }
-
-  #price {
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-  }
-
-  #text {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 18px;
-  }
-
-  #description-title {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-  }
-
-  #description {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21px;
-  }
-  
 `
 
-export default function SingleProduct(props: SingleProductProps) {
-  const { singleProduct } = useSingleProduct(props.id);
+const ProductInfo = styled.div`
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text-dark-secondary);
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 150%;
+    color: var(--text-dark-secondary);
+    margin-top: 12px;
+  }
+
+  span:nth-of-type(2) {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--shapes-dark);
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--text-dark-secondary);
+  }
+
+  div {
+    margin-top: 30px;
+    
+    h3 {
+      color: var(--text-dark);
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    p {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--text-dark-secondary);
+  }
+
+  }
+`
+
+export default function SingleProduct({id}: SingleProductProps) {
+  const { singleProduct } = useSingleProduct(id);
 
   return (
-    <>
-      {singleProduct?.map((element, index) =>
-      <ProductContainer key={index}>
-        <div className="container-left">
-          <Link href="/">
-            <BackIcon />
-          </Link>
-          <img src={element.image_url} alt={element.name}/>
-        </div>
-        <div className="container-right">
-          <div className="container-mid">
+      <ProductContainer>
+        <img src={singleProduct?.image_url} alt={singleProduct?.name}/>
+        <div>
+          <ProductInfo>
+            <span>{singleProduct?.category}</span>
+            <h2>{singleProduct?.name}</h2>
+            <span>{formatPrice(singleProduct?.price_in_cents ?? 0)}</span>
+            <p>* Frete grátis para todo o Brasil nas compras acima de R$300,00</p>
             <div>
-              <p id="category">{element.category}</p>
-              <p id="title">{element.name}</p>
-              <p id="price">{formatPrice(element.price_in_cents)}</p>
-              <p id="text">Frete grátis para todo o Brasil nas compras acima de R$300,00</p>
+              <h3>DESCRIÇÃO</h3>
+              <p>{singleProduct?.description}</p>
             </div>
-            <div>
-              <p id="description-title">DESCRIÇÃO</p>
-              <p id="description">{element.description}</p>
-            </div>
-          </div>
-          <div className="container-button">
-            <ButtonAddToCart/>
-          </div>
+          </ProductInfo>
+          <ButtonAddToCart/>
         </div>
       </ProductContainer>
-      )}
-    </>
   )
 }
-

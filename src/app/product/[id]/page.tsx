@@ -1,17 +1,27 @@
 "use client"
 
 import SingleProduct from "@/components/SingleProduct";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import styles from './page.module.css'
+import { ButtonBack } from "@/components/Buttons/ButtonBack";
+import { DefaultLayout } from "@/components/DafaultLayout";
+import { styled } from "styled-components";
 
 export default function ProdutoEspecifico({params} : {params: {id: string}}) {
-  const client = new QueryClient()
-  
+  const ContainerProduct = styled.div`
+    display: flex;
+    align-items: flex-start;
+    justify-items: center;
+    flex-direction: column;
+    gap: 24px;
+  `
+
   return (
-    <QueryClientProvider client={client}>
-      <main className={styles.main}>
+    <DefaultLayout>
+      <ContainerProduct>
+        <ButtonBack navigate="/" />
         <SingleProduct id={params.id}/>
-      </main>
-    </QueryClientProvider>
+      </ContainerProduct>
+    </DefaultLayout>
   )
 }
+
+// acrescentar avaliação, favoritos, comentários
