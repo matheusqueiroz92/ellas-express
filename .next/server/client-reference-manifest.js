@@ -927,7 +927,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/DafaultLayout.tsx",
         "name": "*",
         "chunks": [
-          "app/product/page:static/chunks/app/product/page.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       },
@@ -935,7 +935,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/DafaultLayout.tsx",
         "name": "",
         "chunks": [
-          "app/product/page:static/chunks/app/product/page.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       },
@@ -943,7 +943,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/DafaultLayout.tsx",
         "name": "DefaultLayout",
         "chunks": [
-          "app/product/page:static/chunks/app/product/page.js"
+          "app/cart/page:static/chunks/app/cart/page.js"
         ],
         "async": false
       }
@@ -3041,7 +3041,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/DafaultLayout.tsx",
       "name": "*",
       "chunks": [
-        "app/product/page:static/chunks/app/product/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -3049,7 +3049,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/DafaultLayout.tsx",
       "name": "",
       "chunks": [
-        "app/product/page:static/chunks/app/product/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },
@@ -3057,7 +3057,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/DafaultLayout.tsx",
       "name": "DefaultLayout",
       "chunks": [
-        "app/product/page:static/chunks/app/product/page.js"
+        "app/cart/page:static/chunks/app/cart/page.js"
       ],
       "async": false
     },

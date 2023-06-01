@@ -1,15 +1,16 @@
 "use client"
 
-import React, { useState } from "react";
+import React, {  useEffect, useState } from "react";
 import { styled } from "styled-components";
 import { Saira_Stencil_One } from 'next/font/google'
 import { PrimaryInputWithSearchIcon } from "./PrimaryInput";
 import { CartControl } from "./CartControl";
 import { useFilter } from "@/hooks/useFilter";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { formatPrice } from "@/utils/FormatPrice";
+import { ProductInCart } from "@/types/ProductType";
 
 const sairaStencil = Saira_Stencil_One({
   weight: ['400'],
@@ -64,11 +65,12 @@ const ContainerMiniCart = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  left: 75%;
-  width: 20vw;
+  justify-content: space-between;
+  right: 150px;
+  width: 21vw;
   height: 50vh;
   /* overflow-y: scroll; */
-  background-color: #bebebe;
+  background-color: #cacaca;
   position: absolute;
   z-index: 999;
   border-radius: 5px;
@@ -120,15 +122,19 @@ const ContainerMiniCart = styled.div`
   }
 `
 
-export default function Header() {
+export default function Header({params}: { params: {pathname: string }}) {
   const { setSearch, search } = useFilter();
-  const { value } = useLocalStorage('cart-items', []);
+  const { value } = useLocalStorage<ProductInCart[]>('cart-items', []);
+  const [isCart, setIsCart] = useState(true);
   const [miniCart, setMiniCart] = useState(false);
 
-  console.log(value);
-  
-
   const router = useRouter();
+  const pathName = usePathname();  
+
+  useEffect(() => {
+    if (pathName === '/cart') setIsCart(false);
+    else setIsCart(true);
+  }, [pathName])
   
   const handleNavigateCart = () => {
     router.push('/cart');
@@ -153,12 +159,14 @@ export default function Header() {
             handleChange={setSearch}
             placeholder="Procurando por algo específico?"
           />
-          <button
-            type="button"
-            onClick={showMiniCart}
-          >
-            <CartControl/>
-          </button>
+          {isCart && (
+            <button
+              type="button"
+              onClick={showMiniCart}
+            >
+              <CartControl/>
+            </button>
+          )}
         </div>
       </TagHeader>
       {miniCart && (
