@@ -758,6 +758,170 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./src/app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/DafaultLayout.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/DafaultLayout.tsx",
+        "name": "*",
+        "chunks": [
+          "app/checkout/page:static/chunks/app/checkout/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/DafaultLayout.tsx",
+        "name": "",
+        "chunks": [
+          "app/checkout/page:static/chunks/app/checkout/page.js"
+        ],
+        "async": false
+      },
+      "DefaultLayout": {
+        "id": "(sc_client)/./src/components/DafaultLayout.tsx",
+        "name": "DefaultLayout",
+        "chunks": [
+          "app/checkout/page:static/chunks/app/checkout/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/FilterBar.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/FilterBar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/FilterBar.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "FilterBar": {
+        "id": "(sc_client)/./src/components/FilterBar.tsx",
+        "name": "FilterBar",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/FilterByType.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/FilterByType.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/FilterByType.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "FilterByType": {
+        "id": "(sc_client)/./src/components/FilterByType.tsx",
+        "name": "FilterByType",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/ProductsList.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/ProductsList.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/ProductsList.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "ProductList": {
+        "id": "(sc_client)/./src/components/ProductsList.tsx",
+        "name": "ProductList",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/contexts/FilterContext.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "FilterContext": {
+        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
+        "name": "FilterContext",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "FilterContextProvider": {
+        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
+        "name": "FilterContextProvider",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
@@ -862,170 +1026,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./src/contexts/FilterContext.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "FilterContext": {
-        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
-        "name": "FilterContext",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "FilterContextProvider": {
-        "id": "(sc_client)/./src/contexts/FilterContext.tsx",
-        "name": "FilterContextProvider",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/page.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/page.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/DafaultLayout.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/DafaultLayout.tsx",
-        "name": "*",
-        "chunks": [
-          "app/cart/page:static/chunks/app/cart/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/DafaultLayout.tsx",
-        "name": "",
-        "chunks": [
-          "app/cart/page:static/chunks/app/cart/page.js"
-        ],
-        "async": false
-      },
-      "DefaultLayout": {
-        "id": "(sc_client)/./src/components/DafaultLayout.tsx",
-        "name": "DefaultLayout",
-        "chunks": [
-          "app/cart/page:static/chunks/app/cart/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/FilterBar.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/FilterBar.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/FilterBar.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "FilterBar": {
-        "id": "(sc_client)/./src/components/FilterBar.tsx",
-        "name": "FilterBar",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/FilterByType.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/FilterByType.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/FilterByType.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "FilterByType": {
-        "id": "(sc_client)/./src/components/FilterByType.tsx",
-        "name": "FilterByType",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/ProductsList.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/ProductsList.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/ProductsList.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "ProductList": {
-        "id": "(sc_client)/./src/components/ProductsList.tsx",
-        "name": "ProductList",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/product/page.tsx": {
       "*": {
         "id": "(sc_client)/./src/app/product/page.tsx",
@@ -1100,6 +1100,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/cart/page:static/chunks/app/cart/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/checkout/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/checkout/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/checkout/page:static/chunks/app/checkout/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/checkout/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/checkout/page:static/chunks/app/checkout/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/checkout/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/checkout/page:static/chunks/app/checkout/page.js"
         ],
         "async": false
       }
@@ -2840,6 +2866,158 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/home/matheus/Projetos/fashion-express/src/app/page.tsx": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/app/page.tsx#": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/app/page.tsx#default": {
+      "id": "(app-client)/./src/app/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/DafaultLayout.tsx": {
+      "id": "(app-client)/./src/components/DafaultLayout.tsx",
+      "name": "*",
+      "chunks": [
+        "app/checkout/page:static/chunks/app/checkout/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/DafaultLayout.tsx#": {
+      "id": "(app-client)/./src/components/DafaultLayout.tsx",
+      "name": "",
+      "chunks": [
+        "app/checkout/page:static/chunks/app/checkout/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/DafaultLayout.tsx#DefaultLayout": {
+      "id": "(app-client)/./src/components/DafaultLayout.tsx",
+      "name": "DefaultLayout",
+      "chunks": [
+        "app/checkout/page:static/chunks/app/checkout/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/FilterBar.tsx": {
+      "id": "(app-client)/./src/components/FilterBar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/FilterBar.tsx#": {
+      "id": "(app-client)/./src/components/FilterBar.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/FilterBar.tsx#FilterBar": {
+      "id": "(app-client)/./src/components/FilterBar.tsx",
+      "name": "FilterBar",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/FilterByType.tsx": {
+      "id": "(app-client)/./src/components/FilterByType.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/FilterByType.tsx#": {
+      "id": "(app-client)/./src/components/FilterByType.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/FilterByType.tsx#FilterByType": {
+      "id": "(app-client)/./src/components/FilterByType.tsx",
+      "name": "FilterByType",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/ProductsList.tsx": {
+      "id": "(app-client)/./src/components/ProductsList.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/ProductsList.tsx#": {
+      "id": "(app-client)/./src/components/ProductsList.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/ProductsList.tsx#ProductList": {
+      "id": "(app-client)/./src/components/ProductsList.tsx",
+      "name": "ProductList",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx": {
+      "id": "(app-client)/./src/contexts/FilterContext.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx#": {
+      "id": "(app-client)/./src/contexts/FilterContext.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx#FilterContext": {
+      "id": "(app-client)/./src/contexts/FilterContext.tsx",
+      "name": "FilterContext",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx#FilterContextProvider": {
+      "id": "(app-client)/./src/contexts/FilterContext.tsx",
+      "name": "FilterContextProvider",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
     "/home/matheus/Projetos/fashion-express/src/app/globals.css#": {
       "id": "null",
       "name": "default",
@@ -2981,158 +3159,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx": {
-      "id": "(app-client)/./src/contexts/FilterContext.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx#": {
-      "id": "(app-client)/./src/contexts/FilterContext.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx#FilterContext": {
-      "id": "(app-client)/./src/contexts/FilterContext.tsx",
-      "name": "FilterContext",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/contexts/FilterContext.tsx#FilterContextProvider": {
-      "id": "(app-client)/./src/contexts/FilterContext.tsx",
-      "name": "FilterContextProvider",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/app/page.tsx": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/app/page.tsx#": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/app/page.tsx#default": {
-      "id": "(app-client)/./src/app/page.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/DafaultLayout.tsx": {
-      "id": "(app-client)/./src/components/DafaultLayout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/cart/page:static/chunks/app/cart/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/DafaultLayout.tsx#": {
-      "id": "(app-client)/./src/components/DafaultLayout.tsx",
-      "name": "",
-      "chunks": [
-        "app/cart/page:static/chunks/app/cart/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/DafaultLayout.tsx#DefaultLayout": {
-      "id": "(app-client)/./src/components/DafaultLayout.tsx",
-      "name": "DefaultLayout",
-      "chunks": [
-        "app/cart/page:static/chunks/app/cart/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/FilterBar.tsx": {
-      "id": "(app-client)/./src/components/FilterBar.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/FilterBar.tsx#": {
-      "id": "(app-client)/./src/components/FilterBar.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/FilterBar.tsx#FilterBar": {
-      "id": "(app-client)/./src/components/FilterBar.tsx",
-      "name": "FilterBar",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/FilterByType.tsx": {
-      "id": "(app-client)/./src/components/FilterByType.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/FilterByType.tsx#": {
-      "id": "(app-client)/./src/components/FilterByType.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/FilterByType.tsx#FilterByType": {
-      "id": "(app-client)/./src/components/FilterByType.tsx",
-      "name": "FilterByType",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/ProductsList.tsx": {
-      "id": "(app-client)/./src/components/ProductsList.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/ProductsList.tsx#": {
-      "id": "(app-client)/./src/components/ProductsList.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/src/components/ProductsList.tsx#ProductList": {
-      "id": "(app-client)/./src/components/ProductsList.tsx",
-      "name": "ProductList",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/home/matheus/Projetos/fashion-express/src/app/product/page.tsx": {
       "id": "(app-client)/./src/app/product/page.tsx",
       "name": "*",
@@ -3202,6 +3228,30 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/cart/page:static/chunks/app/cart/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/app/checkout/page.tsx": {
+      "id": "(app-client)/./src/app/checkout/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/checkout/page:static/chunks/app/checkout/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/app/checkout/page.tsx#": {
+      "id": "(app-client)/./src/app/checkout/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/checkout/page:static/chunks/app/checkout/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/app/checkout/page.tsx#default": {
+      "id": "(app-client)/./src/app/checkout/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/checkout/page:static/chunks/app/checkout/page.js"
       ],
       "async": false
     }

@@ -37,6 +37,10 @@ const TagHeader = styled.header`
     cursor: pointer;
   }
 
+  button:hover {
+    transform: scale(1.1);
+  }
+
   a {
     text-decoration: none;
   }
@@ -65,11 +69,10 @@ const ContainerMiniCart = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
   right: 150px;
   width: 21vw;
   height: 50vh;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
   background-color: #cacaca;
   position: absolute;
   z-index: 999;
@@ -95,23 +98,26 @@ const ContainerMiniCart = styled.div`
     padding: 5px;
   }
 
-  button {
+  /* button {
     padding: 10px;
     border: none;
     width: 100%;
     border-radius: 3px;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
   button:hover {
-    background: gainsboro;
-  }
+    background: var(--orange-low);
+    font-weight: 700;
+  } */
 
   .head {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    font-size: 14px;
   }
 
   .infos {
@@ -122,7 +128,7 @@ const ContainerMiniCart = styled.div`
   }
 `
 
-export default function Header({params}: { params: {pathname: string }}) {
+export default function Header() {
   const { setSearch, search } = useFilter();
   const { value } = useLocalStorage<ProductInCart[]>('cart-items', []);
   const [isCart, setIsCart] = useState(true);
@@ -138,11 +144,16 @@ export default function Header({params}: { params: {pathname: string }}) {
   
   const handleNavigateCart = () => {
     router.push('/cart');
-    setMiniCart(prev => !prev);
   }
 
   const showMiniCart = () => {
-    setMiniCart(prev => !prev);
+    if (value.length > 0) {
+      setMiniCart(true);
+    }
+  }
+
+  const hiddenMiniCart = () => {
+    setMiniCart(false);
   }
 
   return (
@@ -162,7 +173,9 @@ export default function Header({params}: { params: {pathname: string }}) {
           {isCart && (
             <button
               type="button"
-              onClick={showMiniCart}
+              onClick={handleNavigateCart}
+              onMouseEnter={showMiniCart}
+              onMouseLeave={hiddenMiniCart}
             >
               <CartControl/>
             </button>
@@ -181,7 +194,7 @@ export default function Header({params}: { params: {pathname: string }}) {
           {value.map((element, index) => (
             <div className="infos" key={index}>
               <img src={element.image_url} />
-              <h3>{element.name}</h3>
+              <h4>{element.name}</h4>
               <input
                 type="text"
                 value={ element.quantity }
@@ -189,10 +202,10 @@ export default function Header({params}: { params: {pathname: string }}) {
               <h4>{formatPrice(element.price_in_cents)}</h4>
             </div>
           ))}
-          <button
+          {/* <button
             type="button"
             onClick={handleNavigateCart}
-          >Ir para o carrinho</button>
+          >Ir para o carrinho</button> */}
         </ContainerMiniCart>
       )}
     </div>

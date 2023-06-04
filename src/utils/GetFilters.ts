@@ -29,7 +29,7 @@ export function filterQuery(type: FilterType, priority: PriorityType) {
   }
 
   const sortSettings = getPriority(priority);
-  const categorySettings = getCategory(type)
+  const categorySettings = getCategory(type);
 
   return `
     query {

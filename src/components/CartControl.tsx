@@ -8,10 +8,8 @@ export function CartControl() {
   const sumItems = value.reduce((acc: any, cur: { quantity: any; }) => acc + cur.quantity, 0);
 
   const CartCount = styled.span`
-    width: 17px;
-    height: 17px;
     border-radius: 100%;
-    padding: 3px 3px;
+    padding: 5px;
     background-color: var(--delete-color);
     color: white;
     margin-left: -10px;
