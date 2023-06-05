@@ -11,7 +11,7 @@ import { formatPrice } from "@/utils/FormatPrice";
 import { useEffect, useState } from "react";
 import { styled } from "styled-components";
 
-export default function Cart() {
+export default function CartPage() {
   const { value, updateLocalStorage } = useLocalStorage<ProductInCart[]>('cart-items', []);
 
   const qtdItems = value.reduce((acc: any, cur: { quantity: any; }) => acc + cur.quantity, 0);

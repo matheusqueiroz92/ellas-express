@@ -2,6 +2,7 @@ import { formatPrice } from "@/utils/FormatPrice";
 import { useRouter } from "next/navigation";
 import { styled } from "styled-components";
 import { Divider } from "./Divider";
+import ButtonFavorite from "./Buttons/ButtonFavorite";
 
 interface ProductCardProps {
   image: string,
@@ -9,6 +10,11 @@ interface ProductCardProps {
   price: number,
   id: string,
 }
+
+const ContainerExtern = styled.div`
+  background: rgba(255, 255, 255, 0.4);
+  position:relative;
+`
 
 const Card = styled.div`
   display: flex;
@@ -59,13 +65,16 @@ export function ProductCard(props: ProductCardProps) {
   }
 
   return (
-    <Card onClick={handleNavigate}>
-      <img src={props.image} alt={props.title} />
-      <div>
-        <h3>{props.title}</h3>
-        <Divider/>
-        <p>{priceFormated}</p>
-      </div>
-    </Card>
+    <ContainerExtern>
+      <Card onClick={handleNavigate}>
+        <img src={props.image} alt={props.title} />
+        <div>
+          <h3>{props.title}</h3>
+          <Divider/>
+          <p>{priceFormated}</p>
+        </div>
+      </Card>
+      <ButtonFavorite productId={props.id}/>
+    </ContainerExtern>
   )
 }

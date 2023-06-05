@@ -159,11 +159,9 @@ export default function Header() {
   return (
     <div>
       <TagHeader>
-        <Link href="/">
-          <Logo className={sairaStencil.className}>
-            Fashion Express
-          </Logo>
-        </Link>
+        <Logo className={sairaStencil.className} href="/">
+          Fashion Express
+        </Logo>
         <div>
           <PrimaryInputWithSearchIcon
             value={search}

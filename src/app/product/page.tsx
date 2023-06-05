@@ -5,7 +5,7 @@ import { ButtonBack } from "@/components/Buttons/ButtonBack";
 import { DefaultLayout } from "@/components/DafaultLayout";
 import { styled } from "styled-components";
 
-export default function Product({searchParams}: {searchParams: {id: string}}) {
+export default function ProductPage({searchParams}: {searchParams: {id: string}}) {
 
   const ContainerProduct = styled.div`
     display: flex;

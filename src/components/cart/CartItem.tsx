@@ -3,6 +3,7 @@ import { formatPrice } from "@/utils/FormatPrice";
 import { ChangeEvent } from "react";
 import { styled } from "styled-components";
 import { DeleteIcon } from "../Icons/DeleteIcon";
+import { ButtonDelete } from "../Buttons/ButtonDelete";
 
 interface CartItemProps {
   product: ProductInCart,
@@ -98,12 +99,7 @@ export function CartItem({ product, handleUpdateQty, handleDelete }: CartItemPro
       <div>
         <div>
           <h4>{product.name}</h4>
-          <button
-            aria-label="deletar"
-            onClick={() => handleDelete(product.id)}
-          >
-            <DeleteIcon/>
-          </button>
+          <ButtonDelete productId={product.id} handleDelete={handleDelete}/>
         </div>
         <p>{product.description}</p>
         <div>

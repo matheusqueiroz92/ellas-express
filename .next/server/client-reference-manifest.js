@@ -789,7 +789,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/DafaultLayout.tsx",
         "name": "*",
         "chunks": [
-          "app/checkout/page:static/chunks/app/checkout/page.js"
+          "app/favorites/page:static/chunks/app/favorites/page.js"
         ],
         "async": false
       },
@@ -797,7 +797,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/DafaultLayout.tsx",
         "name": "",
         "chunks": [
-          "app/checkout/page:static/chunks/app/checkout/page.js"
+          "app/favorites/page:static/chunks/app/favorites/page.js"
         ],
         "async": false
       },
@@ -805,7 +805,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./src/components/DafaultLayout.tsx",
         "name": "DefaultLayout",
         "chunks": [
-          "app/checkout/page:static/chunks/app/checkout/page.js"
+          "app/favorites/page:static/chunks/app/favorites/page.js"
         ],
         "async": false
       }
@@ -916,32 +916,6 @@ self.__RSC_MANIFEST={
       "FilterContextProvider": {
         "id": "(sc_client)/./src/contexts/FilterContext.tsx",
         "name": "FilterContextProvider",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
         "chunks": [
           "app/layout:static/chunks/app/layout.js"
         ],
@@ -1126,6 +1100,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/checkout/page:static/chunks/app/checkout/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/FavoritesList.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/FavoritesList.tsx",
+        "name": "*",
+        "chunks": [
+          "app/favorites/page:static/chunks/app/favorites/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/FavoritesList.tsx",
+        "name": "",
+        "chunks": [
+          "app/favorites/page:static/chunks/app/favorites/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/FavoritesList.tsx",
+        "name": "default",
+        "chunks": [
+          "app/favorites/page:static/chunks/app/favorites/page.js"
         ],
         "async": false
       }
@@ -2894,7 +2894,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/DafaultLayout.tsx",
       "name": "*",
       "chunks": [
-        "app/checkout/page:static/chunks/app/checkout/page.js"
+        "app/favorites/page:static/chunks/app/favorites/page.js"
       ],
       "async": false
     },
@@ -2902,7 +2902,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/DafaultLayout.tsx",
       "name": "",
       "chunks": [
-        "app/checkout/page:static/chunks/app/checkout/page.js"
+        "app/favorites/page:static/chunks/app/favorites/page.js"
       ],
       "async": false
     },
@@ -2910,7 +2910,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./src/components/DafaultLayout.tsx",
       "name": "DefaultLayout",
       "chunks": [
-        "app/checkout/page:static/chunks/app/checkout/page.js"
+        "app/favorites/page:static/chunks/app/favorites/page.js"
       ],
       "async": false
     },
@@ -3038,54 +3038,6 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/layout.css"
       ]
-    },
-    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/home/matheus/Projetos/fashion-express/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
     },
     "/home/matheus/Projetos/fashion-express/src/components/DefaultProviders.tsx": {
       "id": "(app-client)/./src/components/DefaultProviders.tsx",
@@ -3252,6 +3204,30 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/checkout/page:static/chunks/app/checkout/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/FavoritesList.tsx": {
+      "id": "(app-client)/./src/components/FavoritesList.tsx",
+      "name": "*",
+      "chunks": [
+        "app/favorites/page:static/chunks/app/favorites/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/FavoritesList.tsx#": {
+      "id": "(app-client)/./src/components/FavoritesList.tsx",
+      "name": "",
+      "chunks": [
+        "app/favorites/page:static/chunks/app/favorites/page.js"
+      ],
+      "async": false
+    },
+    "/home/matheus/Projetos/fashion-express/src/components/FavoritesList.tsx#default": {
+      "id": "(app-client)/./src/components/FavoritesList.tsx",
+      "name": "default",
+      "chunks": [
+        "app/favorites/page:static/chunks/app/favorites/page.js"
       ],
       "async": false
     }

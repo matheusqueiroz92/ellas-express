@@ -4,7 +4,7 @@ export interface Product {
   name: string,
   price_in_cents: number,
   category: string,
-  description?: string,
+  description: string,
 }
 
 export interface ProductInCart extends Product {

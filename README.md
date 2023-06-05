@@ -406,13 +406,13 @@ query {
 
 
 
-### `08 Desenvolvimento da paginação dos produtos`
+### `08 Desenvolvimento da página de favoritos`
 
 
 
 
 
-### `09 Desenvolvimento da página de favoritos`
+### `09 Desenvolvimento da paginação dos produtos`
 
 
 

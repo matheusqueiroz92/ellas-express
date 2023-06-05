@@ -1,4 +1,3 @@
-import { Product } from "@/types/Product";
 import { ButtonAddIcon } from "./ButtonAddIcon";
 import { useSingleProduct } from "@/hooks/useSingleProduct";
 
@@ -29,7 +28,7 @@ export function ButtonAddToCart({ productId }: ButtonAddToCartProps) {
         { ...singleProduct, id: productId, quantity: 1}
       ]));
     }
-}
+  }
   
   return (
     <button
